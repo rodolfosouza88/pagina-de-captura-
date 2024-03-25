@@ -1,0 +1,88 @@
+*{
+  margin: 0px;
+}
+body{
+  margin: 0px;
+  padding: 0px;
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+  position: absolute;
+  width: 60%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+h1{
+  background-color: rgb(3, 185, 185);
+  padding: 10px;
+  text-align: center;
+}
+
+main{
+  background-image: url(./images/people.jpg);
+  overflow: hidden;
+  background-size: cover;
+  padding: 30px;
+}
+
+.formulario{
+  float: right;
+  height: 500px;
+  width: 290px;
+  background-color: rgba(245, 235, 235, 0.774);
+  padding: 20px;
+}
+
+.sub_form{
+  color: black;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.p_form{
+  color: black;
+  font-size: 19px;
+  font-weight: 0;
+}
+
+input{
+  border: none;
+  padding: 10px;
+  margin: 5px;
+  width: 100%;
+  box-sizing:border-box;
+}
+
+footer{
+  background-color: rgb(33,33,33);
+  text-align: center;
+  padding: 40px;
+}
+
+.foto_carlos{
+  width: 160px;
+
+}
+
+.description{
+  display: inline-block;
+  color: white;
+  width: 40%;    
+  margin-left: 40px;
+  text-align: left;
+
+
+}
+
+.description h2{
+  font-size: 24px;
+
+}
+
+.description p, h3{
+  margin-bottom: 20px;
+}
